@@ -1,0 +1,79 @@
+Shivam Shrivastava
+Software Engineer
+
++91 7047280653
+
+linkedin.com/in/shivam1939/
+
+shivam.s0116@gmail.com
+
+Satna, 485001 (M.P.)
+
+Summary Statement
+Software Engineer working on web applications with a bit diversified exposure and a total of 3+ years experience. 
+Problem  solver  &  strong  communicator,  eager  to  prove  my  value  and  talent  at  an  emerging  company.  Motivated  to
+advance & expand my skill set through targeted mentorship & challenging projects. 
+
+Skills
+
+Languages/Technologies -  Core JAVA, C++, C#. Spring Boot, Spring MVC, Hibernate, JDBC, SQL(Oracle), SP
+Web Development              -  HTML5, CSS3, Bootstrap, React v18,API Development, JavaScript, XML
+Fundamentals                      -  Eclipse, IntelliJ, Jenkins, Data Structure, Collections, JIRA, PuTTY, GIT, Kafka
+
+Employment History
+
+ Software Engineer, R&D- WMOS -  MANHATTAN ASSOCIATES, Bengaluru
+
+May 2022- May 2023
+
+Part of the R&D team which works on Microservices & Monolithic Warehouse Management web application.
+Team works on  picking & packing functionalities of outbound inventories & shipping outside warehouses. 
+Developed features & Customized UI Components of  Inventory Management for displaying the no. of items
+in a reserve location & no. of cartons as per their zone & sequence using Spring Boot, MVC, REST Services.
+Involved in the development of custom extensions, bug fixing  & efficiently deployment of monolithic WMOS
+application through Jenkins to improve continuous integration practices with regression testing.
+Recognized with both the Rising Star Award  and the Star of the Quarter Award at Manhattan Associates for
+outstanding contributions and achievements.
+
+ Software Engineer - BETTER, BMTG Advisors India Pvt. Ltd
+
+Oct 2021-Mar 2022
+
+Actively engaged in  web application development & web creative design.
+Object Oriented Technologies client/server applications Front-End Design using java technologies- Java,
+J2EE, JSP, Servlets and frameworks : Spring Boot & Hibernate.
+Fixed bugs from existing websites and implemented enhancements that significantly improved web
+functionality and speed. Also, maintained KPI scores around 95% throughout my tenure.
+
+Sr. Business Development Associate - BYJU’S (Think & Learn Pvt. Ltd.)
+
+Jun 2019-Jan 2021
+
+Facilitate the end-to-end process of client engagement, from initial interaction to successful outcomes,
+while actively collaborating with functional team & implementing strategies to optimize conversion rates.
+Work closely with functional teams to build and manage high-performing materials for the business
+development teams and received several awards.
+
+Education
+
+SVITS Indore, RGPV
+
+BE Mechanical Engineering
+CGPA: 7.15
+
+Kendriya Vidyalaya School, Satna (CBSE)
+81 %  in 12th (PCM+ Computer Science)
+8.6 CGPA in 10th
+
+2014-2018
+
+2011-2013
+
+Certificates & Courses
+
+Udemy - The Complete Java Certification Course (17.5 hours Course) - Certificate
+Udemy - Spring & Hibernate (includes Spring Boot) (42.5 hours Course) - Certificate
+Udemy - C++: From Beginner to Expert (17.5 hours Course) - Certificate
+Udemy - SQL for beginners: Learn SQL using MySQL & Database Design (8 hours Course) - Certificate
+
+
