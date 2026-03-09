@@ -502,6 +502,82 @@ body {
     width: 100%;
 }
 
+/* Experience Section */
+.experience {
+    padding: 100px 20px;
+    background: var(--bg-color);
+}
+
+.experience-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.experience-item {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.experience-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--gradient-1);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: var(--transition);
+}
+
+.experience-item:hover::before {
+    transform: scaleX(1);
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.experience-title {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.experience-company {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.experience-description {
+    color: var(--text-color);
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.experience-bullets p {
+    margin: 8px 0;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.experience-date {
+    display: block;
+    text-align: right;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
 /* Contact Section */
 .contact {
     padding: 100px 20px;
