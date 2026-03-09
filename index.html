@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivam Shrivastava - Software Engineer</title>
+    <title>Shivam Shrivastava | Software Engineer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -20,7 +21,6 @@
                 <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -33,56 +33,88 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-circle hero-circle-1"></div>
+            <div class="hero-circle hero-circle-2"></div>
+            <div class="hero-circle hero-circle-3"></div>
+        </div>
         <div class="hero-content">
+            <div class="hero-badge">Available for work</div>
             <h1 class="hero-title">
-                <span class="animate-text">Hello, I'm</span>
-                <span class="animate-text delay-1">Shivam Shrivastava</span>
+                <span class="greeting">Hello, I'm</span>
+                <span class="name">Shivam Shrivastava</span>
             </h1>
-            <p class="hero-subtitle animate-text delay-2">Software Engineer — 6+ years experience</p>
-            <p class="hero-description animate-text delay-3">Web & enterprise applications — Spring Boot, REST APIs, microservices</p>
-            <div class="hero-buttons animate-text delay-4">
-                <a href="#projects" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            <p class="hero-subtitle">Software Engineer with 6+ years of experience</p>
+            <p class="hero-description">Specializing in Java, Spring Boot, REST APIs, and microservices architecture. Building scalable enterprise applications for fintech, hospitality, and healthcare industries.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
             </div>
-            <div class="hero-social animate-text delay-5">
-                <a href="https://github.com/shivams0116" class="social-link" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/shivam1939/" class="social-link" target="_blank">LinkedIn</a>
-                <a href="mailto:shivam.s0116@gmail.com" class="social-link">Email</a>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">6+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">30+</span>
+                    <span class="stat-label">Clients</span>
+                </div>
             </div>
+            <div class="hero-social">
+                <a href="https://github.com/shivams0116" class="social-icon" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/shivam1939/" class="social-icon" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:shivam.s0116@gmail.com" class="social-icon" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
             </div>
         </div>
-        <div class="scroll-down">
-            <span>Scroll Down</span>
-            <div class="scroll-arrow"></div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll down</span>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Building Robust Enterprise Solutions</h2>
+            </div>
             <div class="about-content">
-                <div class="about-text animate-on-scroll">
-                    <p>With over 6 years of experience in Java development, I specialize in building scalable enterprise applications and microservices architectures. I've worked with various industries including fintech, e-commerce, hospitality, and healthcare.</p>
-                    <p>My expertise spans from core Java fundamentals to modern frameworks like Spring Boot, microservices design, and cloud technologies. I'm passionate about writing clean, maintainable code and following best practices.</p>
-                    <div class="about-stats">
-                        <div class="stat animate-on-scroll">
-                            <span class="stat-number" data-target="6">0</span>
-                            <span class="stat-label">Years Experience</span>
+                <div class="about-text">
+                    <p>With over 6 years of experience in software development, I specialize in building scalable enterprise applications and microservices architectures. My expertise spans from core Java fundamentals to modern frameworks like Spring Boot, with hands-on experience in cloud technologies and DevOps practices.</p>
+                    <p>I've worked with diverse industries including fintech, e-commerce, hospitality, and healthcare, delivering high-quality solutions that drive business value. I'm passionate about writing clean, maintainable code and following industry best practices.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <span>Clean Code</span>
                         </div>
-                        <div class="stat animate-on-scroll">
-                            <span class="stat-number" data-target="50">0</span>
-                            <span class="stat-label">Projects Completed</span>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Performance</span>
                         </div>
-                        <div class="stat animate-on-scroll">
-                            <span class="stat-number" data-target="30">0</span>
-                            <span class="stat-label">Happy Clients</span>
+                        <div class="highlight-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Security</span>
                         </div>
-                    </div>
-                </div>
-                <div class="about-image animate-on-scroll">
-                    <div class="photo-placeholder">
-                        <span>Your Photo Here</span>
+                        <div class="highlight-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud Native</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -92,62 +124,94 @@
     <!-- Experience Section -->
     <section id="experience" class="experience">
         <div class="container">
-            <h2 class="section-title animate-on-scroll">Experience</h2>
-            <div class="experience-content">
+            <div class="section-header">
+                <span class="section-tag">Experience</span>
+                <h2 class="section-title">Professional Journey</h2>
+            </div>
+            <div class="timeline">
                 <!-- Job 1 -->
-                <div class="experience-item animate-on-scroll">
-                    <h3 class="experience-title">Application Development Analyst / Software Engineer</h3>
-                    <h4 class="experience-company">Accenture (Marriott Account) | India</h4>
-                    <p class="experience-description">Worked on Marriott enterprise hospitality systems focused on offer management and rate plan engines. Backend developer for microservices in Java 21; high throughput, low-latency REST APIs deployed to Kubernetes. Handle property code propagation and encoded offer identifiers across service boundaries via custom HTTP headers and interceptor chains. Troubleshoot production issues with Datadog/ELK, perform root-cause analysis on logs & metrics. Manage CI/CD with Jenkins/Harness, author declarative pipelines, and implement blue/green deployments. Develop serverless AWS Lambda integrations and asynchronous workflows. Implement distributed logging with MDC context, enabling request correlation across services. Participate in code reviews, design discussions, and proof-of-concept projects for new features.</p>
-                    <div class="experience-bullets">
-                        <p>▹ Built high-throughput REST APIs using Java 21 microservices</p>
-                        <p>▹ Implemented Kubernetes deployments and AWS Lambda integrations</p>
-                        <p>▹ Managed CI/CD pipelines with Jenkins and Harness</p>
-                        <p>▹ Performed production troubleshooting with Datadog/ELK</p>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jun 2020 – Present</span>
+                        <h3 class="timeline-title">Application Development Analyst / Software Engineer</h3>
+                        <h4 class="timeline-company">Accenture (Marriott Account) | India</h4>
+                        <p class="timeline-description">Working on Marriott enterprise hospitality systems focused on offer management and rate plan engines. Backend developer for microservices in Java 21; high throughput, low-latency REST APIs deployed to Kubernetes.</p>
+                        <ul class="timeline-bullets">
+                            <li>Built high-throughput REST APIs using Java 21 microservices</li>
+                            <li>Implemented Kubernetes deployments and AWS Lambda integrations</li>
+                            <li>Managed CI/CD pipelines with Jenkins and Harness</li>
+                            <li>Performed production troubleshooting with Datadog/ELK</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Java 21</span>
+                            <span>Spring Boot</span>
+                            <span>Kubernetes</span>
+                            <span>AWS</span>
+                            <span>Jenkins</span>
+                        </div>
                     </div>
-                    <span class="experience-date">Jun 2020 – Present</span>
                 </div>
 
                 <!-- Job 2 -->
-                <div class="experience-item animate-on-scroll">
-                    <h3 class="experience-title">Software Engineer, R&D - WMOS</h3>
-                    <h4 class="experience-company">Manhattan Associates | India</h4>
-                    <p class="experience-description">Part of the R&D team working on Microservices & Monolithic Warehouse Management web application. Developed features & customized UI components for Inventory Management to display counts for reserve locations and cartons using Spring Boot, Spring MVC and REST services. Involved in custom extensions, bug fixing and deployment of the monolithic WMOS application through Jenkins to improve CI/CD and regression testing practices. Recognized with the Rising Star Award and the Star of the Quarter Award for outstanding contributions.</p>
-                    <div class="experience-bullets">
-                        <p>▹ Developed features for Warehouse Management System using Spring Boot</p>
-                        <p>▹ Customized UI components for Inventory Management</p>
-                        <p>▹ Improved CI/CD practices with Jenkins deployments</p>
-                        <p>▹ Received Rising Star and Star of the Quarter awards</p>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">May 2022 – May 2023</span>
+                        <h3 class="timeline-title">Software Engineer, R&D - WMOS</h3>
+                        <h4 class="timeline-company">Manhattan Associates | India</h4>
+                        <p class="timeline-description">Part of the R&D team working on Microservices & Monolithic Warehouse Management web application. Developed features & customized UI components for Inventory Management.</p>
+                        <ul class="timeline-bullets">
+                            <li>Developed features for Warehouse Management System using Spring Boot</li>
+                            <li>Customized UI components for Inventory Management</li>
+                            <li>Improved CI/CD practices with Jenkins deployments</li>
+                            <li>Received Rising Star and Star of the Quarter awards</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Spring Boot</span>
+                            <span>Spring MVC</span>
+                            <span>REST APIs</span>
+                            <span>Jenkins</span>
+                        </div>
                     </div>
-                    <span class="experience-date">May 2022 – May 2023</span>
                 </div>
 
                 <!-- Job 3 -->
-                <div class="experience-item animate-on-scroll">
-                    <h3 class="experience-title">Software Engineer</h3>
-                    <h4 class="experience-company">BETTER, BMTG Advisors India Pvt. Ltd | India</h4>
-                    <p class="experience-description">Engaged in web application development and creative web design. Worked on client/server applications and front-end design using Java technologies (J2EE, JSP, Servlets) and frameworks like Spring Boot & Hibernate. Fixed production bugs and implemented enhancements; maintained KPIs around 95% during tenure.</p>
-                    <div class="experience-bullets">
-                        <p>▹ Developed web applications using J2EE, JSP, and Servlets</p>
-                        <p>▹ Implemented Spring Boot and Hibernate frameworks</p>
-                        <p>▹ Fixed production bugs and maintained 95% KPIs</p>
-                        <p>▹ Worked on client/server applications and front-end design</p>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Oct 2021 – Mar 2022</span>
+                        <h3 class="timeline-title">Software Engineer</h3>
+                        <h4 class="timeline-company">BETTER, BMTG Advisors India Pvt. Ltd | India</h4>
+                        <p class="timeline-description">Engaged in web application development and creative web design using Java technologies.</p>
+                        <ul class="timeline-bullets">
+                            <li>Developed web applications using J2EE, JSP, and Servlets</li>
+                            <li>Implemented Spring Boot and Hibernate frameworks</li>
+                            <li>Fixed production bugs and maintained 95% KPIs</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Hibernate</span>
+                            <span>JSP</span>
+                        </div>
                     </div>
-                    <span class="experience-date">Oct 2021 – Mar 2022</span>
                 </div>
 
                 <!-- Job 4 -->
-                <div class="experience-item animate-on-scroll">
-                    <h3 class="experience-title">Sr. Business Development Associate</h3>
-                    <h4 class="experience-company">BYJU'S (Think & Learn Pvt. Ltd.) | India</h4>
-                    <p class="experience-description">Facilitated end-to-end client engagement and collaborated with functional teams to optimize conversion rates. Built and managed high-performing materials for business development teams and received multiple awards for performance.</p>
-                    <div class="experience-bullets">
-                        <p>▹ Facilitated client engagement and optimized conversion rates</p>
-                        <p>▹ Collaborated with functional teams for business development</p>
-                        <p>▹ Built high-performing materials for teams</p>
-                        <p>▹ Received multiple performance awards</p>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jun 2019 – Jan 2021</span>
+                        <h3 class="timeline-title">Sr. Business Development Associate</h3>
+                        <h4 class="timeline-company">BYJU'S (Think & Learn Pvt. Ltd.) | India</h4>
+                        <p class="timeline-description">Facilitated end-to-end client engagement and collaborated with functional teams to optimize conversion rates.</p>
+                        <ul class="timeline-bullets">
+                            <li>Facilitated client engagement and optimized conversion rates</li>
+                            <li>Collaborated with functional teams for business development</li>
+                            <li>Received multiple performance awards</li>
+                        </ul>
                     </div>
-                    <span class="experience-date">Jun 2019 – Jan 2021</span>
                 </div>
             </div>
         </div>
@@ -156,19 +220,33 @@
     <!-- Education Section -->
     <section id="education" class="education">
         <div class="container">
-            <h2 class="section-title animate-on-scroll">Education</h2>
-            <div class="education-content">
-                <div class="education-item animate-on-scroll">
-                    <h3 class="education-title">Bachelor of Engineering – Mechanical Engineering</h3>
-                    <h4 class="education-institution">SVITS Indore (RGPV)</h4>
-                    <p class="education-description">Completed degree in Mechanical Engineering with focus on engineering fundamentals and programming basics.</p>
-                    <span class="education-date">2014 – 2018</span>
+            <div class="section-header">
+                <span class="section-tag">Education</span>
+                <h2 class="section-title">Academic Background</h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <span class="education-date">2014 – 2018</span>
+                        <h3 class="education-title">Bachelor of Engineering – Mechanical Engineering</h3>
+                        <h4 class="education-institution">SVITS Indore (RGPV)</h4>
+                        <p class="education-description">Focus on engineering fundamentals and programming basics.</p>
+                    </div>
                 </div>
-                <div class="education-item animate-on-scroll">
-                    <h3 class="education-title">Higher Secondary Certificate</h3>
-                    <h4 class="education-institution">Kendriya Vidyalaya School, Satna (CBSE)</h4>
-                    <p class="education-description">12th Grade with PCM + Computer Science: 81%, 10th Grade: 8.6 CGPA</p>
-                    <span class="education-date">2011 – 2013</span>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <span class="education-date">2011 – 2013</span>
+                        <h3 class="education-title">Higher Secondary Certificate</h3>
+                        <h4 class="education-institution">Kendriya Vidyalaya School, Satna (CBSE)</h4>
+                        <p class="education-description">12th Grade with PCM + Computer Science: 81%</p>
+                        <p class="education-description">10th Grade: 8.6 CGPA</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -177,20 +255,29 @@
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title animate-on-scroll">Skills & Technologies</h2>
-            <div class="skills-content">
-                <div class="skill-category animate-on-scroll">
-                    <h3> Programming Languages</h3>
-                    <div class="skill-list">
+            <div class="section-header">
+                <span class="section-tag">Skills</span>
+                <h2 class="section-title">Technical Expertise</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-tags">
                         <span class="skill-tag">Java</span>
                         <span class="skill-tag">C++</span>
                         <span class="skill-tag">SQL</span>
                         <span class="skill-tag">JavaScript</span>
                     </div>
                 </div>
-                <div class="skill-category animate-on-scroll">
-                    <h3> Frameworks & Technologies</h3>
-                    <div class="skill-list">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Frameworks & Technologies</h3>
+                    </div>
+                    <div class="skill-tags">
                         <span class="skill-tag">Spring Boot</span>
                         <span class="skill-tag">Spring MVC</span>
                         <span class="skill-tag">Hibernate</span>
@@ -199,21 +286,26 @@
                         <span class="skill-tag">Microservices</span>
                         <span class="skill-tag">JUnit</span>
                         <span class="skill-tag">Maven</span>
-                        <span class="skill-tag">Gradle</span>
                     </div>
                 </div>
-                <div class="skill-category animate-on-scroll">
-                    <h3> Databases</h3>
-                    <div class="skill-list">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-tags">
                         <span class="skill-tag">MySQL</span>
                         <span class="skill-tag">PostgreSQL</span>
                         <span class="skill-tag">MongoDB</span>
                         <span class="skill-tag">Redis</span>
                     </div>
                 </div>
-                <div class="skill-category animate-on-scroll">
-                    <h3> DevOps & Tools</h3>
-                    <div class="skill-list">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>DevOps & Tools</h3>
+                    </div>
+                    <div class="skill-tags">
                         <span class="skill-tag">Docker</span>
                         <span class="skill-tag">Kubernetes</span>
                         <span class="skill-tag">Jenkins</span>
@@ -231,69 +323,57 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title animate-on-scroll">Projects</h2>
+            <div class="section-header">
+                <span class="section-tag">Projects & Certifications</span>
+                <h2 class="section-title">Featured Work</h2>
+            </div>
             <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card animate-on-scroll">
-                    <div class="project-icon">🏆</div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
                     <h3 class="project-title">Complete Java Certification Course</h3>
                     <p class="project-description">Comprehensive Java programming certification covering core concepts, advanced topics, and practical applications.</p>
                     <div class="project-tech">
                         <span>Java</span>
                         <span>OOP</span>
                         <span>Data Structures</span>
-                        <span>Algorithms</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">View Certificate</a>
                     </div>
                 </div>
-
-                <!-- Project 2 -->
-                <div class="project-card animate-on-scroll">
-                    <div class="project-icon">🌱</div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
                     <h3 class="project-title">Spring & Hibernate (includes Spring Boot)</h3>
                     <p class="project-description">In-depth course on Spring Framework, Hibernate ORM, and Spring Boot for enterprise application development.</p>
                     <div class="project-tech">
                         <span>Spring Boot</span>
                         <span>Spring MVC</span>
                         <span>Hibernate</span>
-                        <span>JPA</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">View Certificate</a>
                     </div>
                 </div>
-
-                <!-- Project 3 -->
-                <div class="project-card animate-on-scroll">
-                    <div class="project-icon">⚡</div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
                     <h3 class="project-title">C++: From Beginner to Expert</h3>
                     <p class="project-description">Complete C++ programming course from fundamentals to advanced concepts and system programming.</p>
                     <div class="project-tech">
                         <span>C++</span>
                         <span>STL</span>
-                        <span>Pointers</span>
                         <span>OOP</span>
                     </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">View Certificate</a>
-                    </div>
                 </div>
-
-                <!-- Project 4 -->
-                <div class="project-card animate-on-scroll">
-                    <div class="project-icon">🗄️</div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
                     <h3 class="project-title">SQL for beginners: MySQL & Database Design</h3>
                     <p class="project-description">Database fundamentals course covering SQL queries, MySQL, and relational database design principles.</p>
                     <div class="project-tech">
                         <span>MySQL</span>
                         <span>SQL</span>
                         <span>Database Design</span>
-                        <span>Normalization</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">View Certificate</a>
                     </div>
                 </div>
             </div>
@@ -303,26 +383,50 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
             <div class="contact-content">
-                <div class="contact-info animate-on-scroll">
-                    <div class="contact-item">
-                        <span class="contact-icon">📧</span>
-                        <span><a href="mailto:shivam.s0116@gmail.com">shivam.s0116@gmail.com</a></span>
+                <div class="contact-info">
+                    <p class="contact-intro">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:shivam.s0116@gmail.com">shivam.s0116@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Phone</span>
+                                <span>+91 7047280653</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Location</span>
+                                <span>Satna, Madhya Pradesh, India</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">📞</span>
-                        <span>+91 7047280653</span>
+                    <div class="contact-social">
+                        <a href="https://github.com/shivams0116" class="social-icon" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shivam1939/" class="social-icon" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">📍</span>
-                        <span>Satna, Madhya Pradesh, India</span>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://github.com/shivams0116" class="social-link" target="_blank">GitHub</a>
-                        <a href="https://www.linkedin.com/in/shivam1939/" class="social-link" target="_blank">LinkedIn</a>
-                    </div>
-                    <button class="btn btn-primary" onclick="window.location.href='mailto:shivam.s0116@gmail.com'">Send Message</button>
                 </div>
             </div>
         </div>
@@ -331,8 +435,10 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Shivam Shrivastava. All rights reserved.</p>
-            <p>Built with ❤️ and Java</p>
+            <div class="footer-content">
+                <p>&copy; 2026 Shivam Shrivastava. All rights reserved.</p>
+                <p>Built with <i class="fas fa-heart"></i> and Java</p>
+            </div>
         </div>
     </footer>
 
