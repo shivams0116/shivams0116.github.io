@@ -585,10 +585,7 @@ body {
 }
 
 .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    max-width: 900px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
