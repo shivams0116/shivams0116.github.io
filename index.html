@@ -4,65 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivam Shrivastava — Senior Software Engineer | Enterprise Java &amp; Microservices</title>
+    <title>Shivam Shrivastava | Senior Software Engineer — Enterprise Java &amp; Microservices</title>
     <meta name="description"
-        content="Senior Software Engineer with 6+ years of experience specializing in Java 21, Spring Boot, REST APIs, and microservices architecture for fintech, hospitality, and healthcare.">
+        content="Shivam Shrivastava – Senior Software Engineer with 6+ years of experience specializing in Java 21, Spring Boot, distributed microservices, REST APIs, and Kubernetes.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-    <!-- Navigation (Frosted Translucent Apple Bar) -->
+
+    <!-- Navigation (Glassmorphic Bar) -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#home" class="nav-logo" title="Shivam Shrivastava">SS</a>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="nav-menu">
                 <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
-                <li><a href="ShivamRESUME_.pdf" target="_blank" rel="noopener noreferrer" class="nav-cta-btn">Resume</a></li>
+                <li><a href="ShivamRESUME_.pdf" target="_blank" rel="noopener noreferrer" class="nav-cta-btn"><i class="fas fa-file-pdf"></i> Resume</a></li>
             </ul>
-            <button class="hamburger" aria-label="Toggle navigation menu">
+            <div class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
                 <span></span>
                 <span></span>
                 <span></span>
-            </button>
+            </div>
         </div>
     </nav>
 
-    <!-- Hero Section (Apple Product Showcase Aesthetic) -->
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-bg" aria-hidden="true">
+            <div class="hero-overlay"></div>
             <div class="hero-circle hero-circle-1"></div>
             <div class="hero-circle hero-circle-2"></div>
             <div class="hero-circle hero-circle-3"></div>
+            <!-- Floating ambient tech particles -->
+            <div class="particle" style="--x:15%;--y:20%;--d:4.2s;--s:0.6;"></div>
+            <div class="particle" style="--x:80%;--y:35%;--d:5.5s;--s:0.9;"></div>
+            <div class="particle" style="--x:55%;--y:70%;--d:3.8s;--s:0.5;"></div>
+            <div class="particle" style="--x:28%;--y:60%;--d:6s;--s:0.75;"></div>
+            <div class="particle" style="--x:72%;--y:15%;--d:4.8s;--s:0.8;"></div>
+            <div class="particle" style="--x:88%;--y:78%;--d:5.2s;--s:0.65;"></div>
         </div>
+
         <div class="container hero-content">
-            <div class="hero-badge">
-                <span class="badge-dot"></span>
-                <span>Available for Senior Software Engineer &amp; Microservices Roles</span>
-            </div>
+            <span class="greeting">Hello, I'm</span>
             <h1 class="hero-title">
-                <span class="greeting">Hello, I'm</span>
                 <span class="name">Shivam Shrivastava</span>
             </h1>
-            <p class="hero-subtitle">Senior Software Engineer &bull; 6+ Years Experience</p>
-            <p class="hero-description">Specializing in Java 21, Spring Boot, distributed microservices architectures, and low-latency REST APIs. Architecting and delivering resilient backend systems for fintech, hospitality, and enterprise cloud platforms.</p>
-            
+            <p class="hero-subtitle">Senior Software Engineer &bull; Enterprise Java &amp; Distributed Microservices</p>
+            <p class="hero-description">6+ years architecting high-throughput backend systems, low-latency REST APIs, and resilient microservices in Java 21 and Spring Boot across fintech, hospitality, and supply chain enterprise platforms.</p>
+
             <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">
-                    <span>View Projects</span>
+                <a href="#projects" class="btn btn-primary" id="btn-view-projects">
+                    <span>Explore Featured Work</span>
                     <i class="fas fa-arrow-right"></i>
                 </a>
-                <a href="#contact" class="btn btn-secondary">
-                    <span>Get In Touch</span>
+                <a href="#experience" class="btn btn-secondary" id="btn-view-experience">
+                    <span>View Experience</span>
                 </a>
                 <a href="ShivamRESUME_.pdf" target="_blank" rel="noopener noreferrer" class="btn-link">
                     <span>Download Resume</span>
@@ -70,6 +77,33 @@
                 </a>
             </div>
 
+            <!-- Open to Roles Badge -->
+            <div class="hero-badge">
+                <span class="pulse-dot"></span>
+                <span>Open to Senior Software Engineer, Backend Lead, Microservices Architect &amp; Senior Java Engineer roles</span>
+            </div>
+
+            <!-- Contact Details on Home Page -->
+            <div class="hero-contact-bar">
+                <a href="mailto:shivam.s0116@gmail.com" class="hero-contact-pill email-pill" id="hero-email" title="Send Email">
+                    <i class="fas fa-envelope"></i>
+                    <span>shivam.s0116@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/shivam1939/" target="_blank" rel="noopener noreferrer" class="hero-contact-pill linkedin-pill" id="hero-linkedin" title="LinkedIn Profile">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>linkedin.com/in/shivam1939</span>
+                </a>
+                <a href="https://github.com/shivams0116" target="_blank" rel="noopener noreferrer" class="hero-contact-pill github-pill" id="hero-github" title="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                    <span>github.com/shivams0116</span>
+                </a>
+                <span class="hero-contact-pill location-pill">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Satna, MP &bull; India</span>
+                </span>
+            </div>
+
+            <!-- Hero Stats Row -->
             <div class="hero-stats">
                 <div class="stat-item">
                     <span class="stat-number">6+</span>
@@ -77,24 +111,12 @@
                 </div>
                 <div class="stat-item">
                     <span class="stat-number">50+</span>
-                    <span class="stat-label">Production Deliveries</span>
+                    <span class="stat-label">Production Modules</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-number">30+</span>
                     <span class="stat-label">Enterprise Clients</span>
                 </div>
-            </div>
-
-            <div class="hero-social">
-                <a href="https://github.com/shivams0116" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/shivam1939/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="mailto:shivam.s0116@gmail.com" class="social-icon" aria-label="Send Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
             </div>
 
             <div class="scroll-indicator">
@@ -106,18 +128,19 @@
         </div>
     </section>
 
-    <!-- About Section (Apple Soft Overlay Surface) -->
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">About Me</span>
+                <span class="section-tag"><i class="fas fa-user-check"></i> About Me</span>
                 <h2 class="section-title">Building Robust Enterprise Solutions</h2>
-                <p class="section-subtitle">Dedicated to clean architecture, high throughput, and reliable distributed engineering.</p>
+                <p class="section-subtitle">Bridging complex business domains with clean architecture, high throughput, and resilient cloud-native engineering.</p>
             </div>
+            
             <div class="about-content">
                 <div class="about-text">
-                    <p>With over 6 years of experience in enterprise software engineering, I specialize in designing and deploying scalable microservices architectures and high-performance backend systems. My core engineering domain spans modern Java (Java 17/21), Spring Boot, reactive programming, cloud-native deployments, and event-driven architectures.</p>
-                    <p>I have contributed to mission-critical platforms across diverse industries—including Marriott International enterprise hospitality systems at Accenture, supply chain warehouse management (WMOS) at Manhattan Associates, and fintech advisory applications. I emphasize clean code, comprehensive testing, secure API contracts, and automated CI/CD pipelines.</p>
+                    <p>With over 6 years of experience in enterprise backend software engineering, I specialize in designing and delivering high-concurrency microservices, event-driven architectures, and distributed systems. My core engineering stack centers on modern Java (Java 17/21), Spring Boot, reactive programming, and Kubernetes container orchestration.</p>
+                    <p>I have contributed to mission-critical platforms across diverse sectors—including Marriott International enterprise hospitality systems at Accenture, supply chain warehouse management (WMOS) at Manhattan Associates, and fintech advisory applications. I prioritize clean code principles, SOLID design, automated CI/CD pipelines, and deep production observability.</p>
                     
                     <div class="about-highlights">
                         <div class="highlight-item">
@@ -130,7 +153,7 @@
                         </div>
                         <div class="highlight-item">
                             <i class="fas fa-shield-alt"></i>
-                            <span>API Security</span>
+                            <span>Enterprise Security</span>
                         </div>
                         <div class="highlight-item">
                             <i class="fas fa-cloud"></i>
@@ -138,26 +161,53 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Academic Background in About -->
+                <div class="about-education">
+                    <h3 class="exploring-title"><i class="fas fa-graduation-cap"></i> Academic Background</h3>
+                    <div class="about-education-grid">
+                        <div class="about-edu-card">
+                            <div class="edu-badge"><i class="fas fa-graduation-cap"></i> B.E.</div>
+                            <div class="edu-info">
+                                <span class="edu-year">2014 – 2018</span>
+                                <h4>Bachelor of Engineering – Mechanical Engineering</h4>
+                                <p class="edu-spec">Core Engineering &amp; Computational Modeling</p>
+                                <p class="edu-school">SVITS Indore (RGPV University)</p>
+                            </div>
+                        </div>
+
+                        <div class="about-edu-card">
+                            <div class="edu-badge"><i class="fas fa-school"></i> HSC</div>
+                            <div class="edu-info">
+                                <span class="edu-year">2011 – 2013</span>
+                                <h4>Higher Secondary Certificate (CBSE)</h4>
+                                <p class="edu-spec">Physics, Chemistry, Math &amp; Computer Science: 81%</p>
+                                <p class="edu-school">Kendriya Vidyalaya School, Satna &bull; 10th: 8.6 CGPA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience Section (White Base Canvas) -->
+    <!-- Experience Section -->
     <section id="experience" class="experience">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Career &amp; Impact</span>
+                <span class="section-tag"><i class="fas fa-briefcase"></i> Experience</span>
                 <h2 class="section-title">Professional Journey</h2>
-                <p class="section-subtitle">Hands-on technical contributions across industry-leading enterprise software platforms.</p>
+                <p class="section-subtitle">Real-world production engineering across global enterprise platforms and distributed systems.</p>
             </div>
             
             <div class="timeline">
                 <!-- Job 1: Accenture -->
-                <article class="timeline-item">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <span class="timeline-date">Jun 2023 – Present</span>
                         <h3 class="timeline-title">Senior Software Engineer / Application Development Senior Analyst</h3>
-                        <h4 class="timeline-company">Accenture (Marriott Account) &bull; India</h4>
+                        <h4 class="timeline-company"><i class="fas fa-building"></i> Accenture (Marriott Account) &bull; India</h4>
                         <p class="timeline-description">Working on Marriott enterprise hospitality platforms centered on offer management and high-volume rate plan engines. Designing backend microservices in Java 21 to deliver high-throughput, sub-second latency REST APIs deployed on Kubernetes.</p>
                         <ul class="timeline-bullets">
                             <li>Architected and implemented high-throughput REST APIs using Java 21 and Spring Boot microservices</li>
@@ -175,14 +225,15 @@
                             <span>Datadog</span>
                         </div>
                     </div>
-                </article>
+                </div>
 
                 <!-- Job 2: Manhattan Associates -->
-                <article class="timeline-item">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <span class="timeline-date">May 2022 – May 2023</span>
                         <h3 class="timeline-title">Software Engineer, R&amp;D — WMOS</h3>
-                        <h4 class="timeline-company">Manhattan Associates &bull; India</h4>
+                        <h4 class="timeline-company"><i class="fas fa-building"></i> Manhattan Associates &bull; India</h4>
                         <p class="timeline-description">Part of the core R&amp;D engineering team driving microservices and monolithic Warehouse Management System (WMOS) web applications. Engineered core features and tailored UI components for end-to-end inventory tracking.</p>
                         <ul class="timeline-bullets">
                             <li>Developed and optimized mission-critical features for global Warehouse Management Systems using Spring Boot</li>
@@ -198,14 +249,15 @@
                             <span>Oracle SQL</span>
                         </div>
                     </div>
-                </article>
+                </div>
 
                 <!-- Job 3: BETTER Advisors -->
-                <article class="timeline-item">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <span class="timeline-date">Oct 2021 – Mar 2022</span>
                         <h3 class="timeline-title">Software Engineer</h3>
-                        <h4 class="timeline-company">BETTER, BMTG Advisors India Pvt. Ltd &bull; India</h4>
+                        <h4 class="timeline-company"><i class="fas fa-building"></i> BETTER, BMTG Advisors India Pvt. Ltd &bull; India</h4>
                         <p class="timeline-description">Engaged in full-lifecycle web application development and responsive user experiences using enterprise Java technologies and database optimization.</p>
                         <ul class="timeline-bullets">
                             <li>Engineered scalable web applications leveraging J2EE, JSP, and Servlets architectures</li>
@@ -220,14 +272,15 @@
                             <span>MySQL</span>
                         </div>
                     </div>
-                </article>
+                </div>
 
                 <!-- Job 4: BYJU'S -->
-                <article class="timeline-item">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <span class="timeline-date">Jun 2019 – Jan 2021</span>
                         <h3 class="timeline-title">Sr. Business Development Associate</h3>
-                        <h4 class="timeline-company">BYJU'S (Think &amp; Learn Pvt. Ltd.) &bull; India</h4>
+                        <h4 class="timeline-company"><i class="fas fa-building"></i> BYJU'S (Think &amp; Learn Pvt. Ltd.) &bull; India</h4>
                         <p class="timeline-description">Led client discovery, cross-functional stakeholder coordination, and analytical workflow optimizations.</p>
                         <ul class="timeline-bullets">
                             <li>Facilitated end-to-end client engagement pipelines and optimized conversion funnels</li>
@@ -235,27 +288,37 @@
                             <li>Earned consistent team leadership and performance recognitions</li>
                         </ul>
                     </div>
-                </article>
+                </div>
+            </div>
+
+            <!-- Projects Modal Trigger Button -->
+            <div class="experience-projects-cta">
+                <button class="btn-projects-trigger" id="btn-open-projects-modal" type="button">
+                    <i class="fas fa-folder-open"></i>
+                    <span>Explore Featured Projects &amp; Credentials (Popup)</span>
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                </button>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section (Apple Soft Overlay Surface) -->
+    <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Core Competencies</span>
+                <span class="section-tag"><i class="fas fa-laptop-code"></i> Core Skills</span>
                 <h2 class="section-title">Technical Expertise</h2>
-                <p class="section-subtitle">Proficiencies refined across production microservices, data layers, and cloud infrastructure.</p>
+                <p class="section-subtitle">Proficiencies refined across production microservices, distributed caching, and automated cloud pipelines.</p>
             </div>
             
             <div class="skills-grid">
                 <!-- Category 1 -->
                 <div class="skill-card">
                     <div class="skill-header">
-                        <i class="fas fa-code"></i>
+                        <div class="skill-icon-wrap"><i class="fas fa-code"></i></div>
                         <h3>Programming Languages</h3>
                     </div>
+                    <p class="skill-desc">Expert in robust object-oriented programming, modern concurrency, functional streams, and low-latency execution.</p>
                     <div class="skill-tags">
                         <span class="skill-tag">Java (8/11/17/21)</span>
                         <span class="skill-tag">C++</span>
@@ -268,9 +331,10 @@
                 <!-- Category 2 -->
                 <div class="skill-card">
                     <div class="skill-header">
-                        <i class="fas fa-layer-group"></i>
+                        <div class="skill-icon-wrap"><i class="fas fa-layer-group"></i></div>
                         <h3>Frameworks &amp; Architecture</h3>
                     </div>
+                    <p class="skill-desc">Designing resilient microservices, reactive REST endpoints, ORM layers, and automated unit/integration test suites.</p>
                     <div class="skill-tags">
                         <span class="skill-tag">Spring Boot</span>
                         <span class="skill-tag">Spring MVC</span>
@@ -285,174 +349,224 @@
                 <!-- Category 3 -->
                 <div class="skill-card">
                     <div class="skill-header">
-                        <i class="fas fa-database"></i>
+                        <div class="skill-icon-wrap"><i class="fas fa-database"></i></div>
                         <h3>Databases &amp; Caching</h3>
                     </div>
+                    <p class="skill-desc">Managing relational databases, document stores, and in-memory caching solutions for high-concurrency systems.</p>
                     <div class="skill-tags">
                         <span class="skill-tag">MySQL</span>
                         <span class="skill-tag">PostgreSQL</span>
                         <span class="skill-tag">MongoDB</span>
-                        <span class="skill-tag">Redis</span>
-                        <span class="skill-tag">Oracle DB</span>
+                        <span class="skill-tag">Redis Cache</span>
+                        <span class="skill-tag">Oracle SQL</span>
                     </div>
                 </div>
 
                 <!-- Category 4 -->
                 <div class="skill-card">
                     <div class="skill-header">
-                        <i class="fas fa-tools"></i>
+                        <div class="skill-icon-wrap"><i class="fas fa-tools"></i></div>
                         <h3>DevOps &amp; Cloud Tools</h3>
                     </div>
+                    <p class="skill-desc">Containerization, CI/CD pipeline automation, serverless functions, and real-time distributed tracing/observability.</p>
                     <div class="skill-tags">
                         <span class="skill-tag">Docker</span>
                         <span class="skill-tag">Kubernetes</span>
                         <span class="skill-tag">AWS (Lambda, S3)</span>
                         <span class="skill-tag">Jenkins</span>
-                        <span class="skill-tag">Harness</span>
-                        <span class="skill-tag">Git / GitHub</span>
-                        <span class="skill-tag">Datadog</span>
+                        <span class="skill-tag">Harness CI/CD</span>
+                        <span class="skill-tag">Datadog / ELK</span>
                         <span class="skill-tag">Kafka</span>
-                        <span class="skill-tag">Elasticsearch</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Education Section (White Base Canvas) -->
-    <section id="education" class="education">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Education</span>
-                <h2 class="section-title">Academic Background</h2>
-                <p class="section-subtitle">Foundational engineering degree and academic track record.</p>
-            </div>
-            
-            <div class="education-grid">
-                <div class="education-card">
-                    <div class="education-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <div class="education-content">
-                        <span class="education-date">2014 – 2018</span>
-                        <h3 class="education-title">Bachelor of Engineering – Mechanical Engineering</h3>
-                        <h4 class="education-institution">SVITS Indore (RGPV)</h4>
-                        <p class="education-description">Core engineering methodology, analytical problem-solving, and computational programming foundations.</p>
-                    </div>
-                </div>
-
-                <div class="education-card">
-                    <div class="education-icon">
-                        <i class="fas fa-school"></i>
-                    </div>
-                    <div class="education-content">
-                        <span class="education-date">2011 – 2013</span>
-                        <h3 class="education-title">Higher Secondary Certificate (CBSE)</h3>
-                        <h4 class="education-institution">Kendriya Vidyalaya School, Satna</h4>
-                        <p class="education-description">12th Grade with Physics, Chemistry, Math &amp; Computer Science: <strong>81%</strong></p>
-                        <p class="education-description">10th Grade: <strong>8.6 CGPA</strong></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section (Apple Soft Overlay Surface) -->
+    <!-- Featured Projects & Certifications Section -->
     <section id="projects" class="projects">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Certifications &amp; Projects</span>
-                <h2 class="section-title">Featured Work &amp; Credentials</h2>
-                <p class="section-subtitle">Continuous mastery of software engineering, system design, and database architecture.</p>
+                <span class="section-tag"><i class="fas fa-certificate"></i> Featured Work</span>
+                <h2 class="section-title">Certifications &amp; Credentials</h2>
+                <p class="section-subtitle">Rigorous software engineering mastery covering advanced Java internals, Spring enterprise systems, and database architecture.</p>
             </div>
             
             <div class="projects-grid">
                 <!-- Project 1 -->
                 <div class="project-card">
-                    <div>
-                        <div class="project-icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <h3 class="project-title">Complete Java Certification Course</h3>
-                        <p class="project-description">Comprehensive advanced Java masterclass covering OOP architecture, multithreading, concurrent data structures, and practical enterprise patterns.</p>
+                    <div class="project-card-header">
+                        <span class="project-card-num">CREDENTIAL 01</span>
+                        <div class="project-icon"><i class="fas fa-certificate"></i></div>
                     </div>
-                    <div>
-                        <div class="project-tech">
-                            <span>Java 17/21</span>
-                            <span>Multithreading</span>
-                            <span>Data Structures</span>
-                        </div>
-                        <span class="project-link">Verified Credential &rarr;</span>
+                    <h3 class="project-title">Complete Java Certification Course</h3>
+                    <p class="project-subtitle">Advanced Java Architecture &bull; OOP, Multithreading &amp; Concurrency</p>
+                    <p class="project-description">Comprehensive advanced Java masterclass covering object-oriented architecture, thread safety, concurrent data structures, and practical enterprise design patterns.</p>
+                    <div class="project-impact">
+                        <div class="impact-pill"><i class="fas fa-check-circle"></i> Enterprise Java</div>
+                        <div class="impact-pill"><i class="fas fa-bolt"></i> Multithreading</div>
                     </div>
+                    <div class="project-tech">
+                        <span>Java 17/21</span>
+                        <span>Concurrency</span>
+                        <span>Data Structures</span>
+                        <span>OOP Patterns</span>
+                    </div>
+                    <a href="ShivamRESUME_.pdf" target="_blank" rel="noopener noreferrer" class="project-card-btn">
+                        <span>View Certification Details</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
 
                 <!-- Project 2 -->
                 <div class="project-card">
-                    <div>
-                        <div class="project-icon">
-                            <i class="fas fa-leaf"></i>
-                        </div>
-                        <h3 class="project-title">Spring &amp; Hibernate (Includes Spring Boot)</h3>
-                        <p class="project-description">In-depth enterprise engineering covering Spring Core, AOP, Hibernate ORM, REST API development, JPA repositories, and cloud-ready Spring Boot services.</p>
+                    <div class="project-card-header">
+                        <span class="project-card-num">CREDENTIAL 02</span>
+                        <div class="project-icon"><i class="fas fa-leaf"></i></div>
                     </div>
-                    <div>
-                        <div class="project-tech">
-                            <span>Spring Boot</span>
-                            <span>Hibernate ORM</span>
-                            <span>REST APIs</span>
-                        </div>
-                        <span class="project-link">Verified Credential &rarr;</span>
+                    <h3 class="project-title">Spring &amp; Hibernate (Includes Spring Boot)</h3>
+                    <p class="project-subtitle">Enterprise Application Framework &bull; ORM &amp; REST Microservices</p>
+                    <p class="project-description">In-depth enterprise engineering covering Spring Core, Dependency Injection, AOP, Hibernate ORM mapping, REST API development, JPA repositories, and cloud-ready Spring Boot services.</p>
+                    <div class="project-impact">
+                        <div class="impact-pill"><i class="fas fa-check-circle"></i> Spring Boot</div>
+                        <div class="impact-pill"><i class="fas fa-database"></i> Hibernate ORM</div>
                     </div>
+                    <div class="project-tech">
+                        <span>Spring Boot</span>
+                        <span>Spring MVC</span>
+                        <span>Hibernate</span>
+                        <span>JPA</span>
+                    </div>
+                    <a href="ShivamRESUME_.pdf" target="_blank" rel="noopener noreferrer" class="project-card-btn">
+                        <span>View Certification Details</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
 
                 <!-- Project 3 -->
                 <div class="project-card">
-                    <div>
-                        <div class="project-icon">
-                            <i class="fas fa-code-branch"></i>
-                        </div>
-                        <h3 class="project-title">C++: From Beginner to Expert</h3>
-                        <p class="project-description">System-level software engineering course encompassing modern C++ fundamentals, STL algorithms, memory management, pointers, and object modeling.</p>
+                    <div class="project-card-header">
+                        <span class="project-card-num">CREDENTIAL 03</span>
+                        <div class="project-icon"><i class="fas fa-code-branch"></i></div>
                     </div>
-                    <div>
-                        <div class="project-tech">
-                            <span>C++</span>
-                            <span>STL</span>
-                            <span>Memory Management</span>
-                        </div>
-                        <span class="project-link">Verified Credential &rarr;</span>
+                    <h3 class="project-title">C++: From Beginner to Expert</h3>
+                    <p class="project-subtitle">Systems Programming &bull; Modern STL, Memory Management &amp; Pointers</p>
+                    <p class="project-description">System-level software engineering course encompassing modern C++ fundamentals, STL algorithms, manual memory management, pointer arithmetic, and efficient low-level modeling.</p>
+                    <div class="project-impact">
+                        <div class="impact-pill"><i class="fas fa-microchip"></i> System Engineering</div>
+                        <div class="impact-pill"><i class="fas fa-memory"></i> Memory Optimization</div>
                     </div>
+                    <div class="project-tech">
+                        <span>Modern C++</span>
+                        <span>STL Algorithms</span>
+                        <span>Memory Management</span>
+                    </div>
+                    <a href="ShivamRESUME_.pdf" target="_blank" rel="noopener noreferrer" class="project-card-btn">
+                        <span>View Certification Details</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
 
                 <!-- Project 4 -->
                 <div class="project-card">
-                    <div>
-                        <div class="project-icon">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <h3 class="project-title">SQL for Beginners: MySQL &amp; Database Design</h3>
-                        <p class="project-description">Relational database design principles, complex multi-table joins, indexing strategies, query execution analysis, and schema normalization.</p>
+                    <div class="project-card-header">
+                        <span class="project-card-num">CREDENTIAL 04</span>
+                        <div class="project-icon"><i class="fas fa-database"></i></div>
                     </div>
-                    <div>
-                        <div class="project-tech">
-                            <span>MySQL</span>
-                            <span>Relational Schema</span>
-                            <span>Indexing</span>
-                        </div>
-                        <span class="project-link">Verified Credential &rarr;</span>
+                    <h3 class="project-title">SQL for Beginners: MySQL &amp; Database Design</h3>
+                    <p class="project-subtitle">Relational Database Design &bull; Query Optimization &amp; Schema Normalization</p>
+                    <p class="project-description">Relational database design principles, complex multi-table joins, B-tree indexing strategies, query execution analysis, ACID transactions, and 3NF schema normalization.</p>
+                    <div class="project-impact">
+                        <div class="impact-pill"><i class="fas fa-table"></i> Schema Design</div>
+                        <div class="impact-pill"><i class="fas fa-tachometer-alt"></i> Query Tuning</div>
                     </div>
+                    <div class="project-tech">
+                        <span>MySQL</span>
+                        <span>Relational Normalization</span>
+                        <span>Query Optimization</span>
+                    </div>
+                    <a href="ShivamRESUME_.pdf" target="_blank" rel="noopener noreferrer" class="project-card-btn">
+                        <span>View Certification Details</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section (White Base Canvas) -->
+    <!-- Selected Projects Modal Popup -->
+    <div class="modal-overlay" id="projects-modal" aria-hidden="true">
+        <div class="modal-container" role="dialog" aria-labelledby="modal-title">
+            <div class="modal-header">
+                <div>
+                    <span class="modal-tag">Enterprise Initiatives</span>
+                    <h3 class="modal-title" id="modal-title">Featured Projects &amp; Credentials</h3>
+                </div>
+                <button class="modal-close" id="btn-close-projects-modal" aria-label="Close modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="modal-body">
+                <div class="modal-projects-grid">
+                    <div class="modal-project-card">
+                        <div class="modal-project-icon"><i class="fas fa-hotel"></i></div>
+                        <h4>Marriott Offer &amp; Rate Engine</h4>
+                        <p>High-throughput Java 21 microservices deployed on Kubernetes, delivering sub-second rate calculations across enterprise hospitality channels.</p>
+                        <div class="modal-project-tech">
+                            <span>Java 21</span>
+                            <span>Kubernetes</span>
+                            <span>AWS Lambda</span>
+                            <span>Datadog</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-project-card">
+                        <div class="modal-project-icon"><i class="fas fa-warehouse"></i></div>
+                        <h4>Warehouse Management (WMOS) R&amp;D</h4>
+                        <p>Core inventory management modules, order routing, and UI customization within global supply chain execution software.</p>
+                        <div class="modal-project-tech">
+                            <span>Spring Boot</span>
+                            <span>Spring MVC</span>
+                            <span>REST APIs</span>
+                            <span>Jenkins</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-project-card">
+                        <div class="modal-project-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4>Advisory Web Platforms</h4>
+                        <p>Enterprise Java web application with Spring Boot microservices, Hibernate object relational mapping, and 95%+ operational availability.</p>
+                        <div class="modal-project-tech">
+                            <span>J2EE</span>
+                            <span>Hibernate</span>
+                            <span>MySQL</span>
+                            <span>Spring</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-project-card">
+                        <div class="modal-project-icon"><i class="fas fa-certificate"></i></div>
+                        <h4>Java Core &amp; Concurrency Masterclass</h4>
+                        <p>Advanced enterprise certification covering multithreading, concurrent hash tables, thread pools, and distributed design patterns.</p>
+                        <div class="modal-project-tech">
+                            <span>Java 21</span>
+                            <span>Concurrency</span>
+                            <span>Memory Model</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Contact</span>
+                <span class="section-tag"><i class="fas fa-envelope"></i> Contact</span>
                 <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Interested in collaborating or discussing senior engineering opportunities? Let's connect.</p>
+                <p class="section-subtitle">Interested in collaborating or discussing senior software engineering opportunities? Let's connect.</p>
             </div>
             
             <div class="contact-content">
@@ -491,7 +605,7 @@
                         </div>
                     </div>
 
-                    <div class="contact-social">
+                    <div class="contact-social-row">
                         <a href="mailto:shivam.s0116@gmail.com" class="btn btn-primary">
                             <i class="fas fa-paper-plane"></i>
                             <span>Send Email</span>
@@ -500,8 +614,9 @@
                             <i class="fab fa-linkedin-in"></i>
                             <span>LinkedIn Profile</span>
                         </a>
-                        <a href="https://github.com/shivams0116" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                        <a href="https://github.com/shivams0116" target="_blank" rel="noopener noreferrer" class="hero-contact-pill github-pill" style="padding:13px 24px;">
                             <i class="fab fa-github"></i>
+                            <span>GitHub</span>
                         </a>
                     </div>
                 </div>
@@ -509,12 +624,17 @@
         </div>
     </section>
 
-    <!-- Footer (Apple Minimalist) -->
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <p>&copy; 2026 Shivam Shrivastava. All rights reserved.</p>
-                <p>Designed with precision &bull; Apple Light Architecture</p>
+                <div class="footer-contact-links">
+                    <a href="mailto:shivam.s0116@gmail.com"><i class="fas fa-envelope"></i> shivam.s0116@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/shivam1939/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                    <a href="https://github.com/shivams0116" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+                <p>Enterprise Java &bull; Distributed Microservices &bull; Cloud Architecture</p>
             </div>
         </div>
     </footer>
