@@ -1,7 +1,7 @@
 # SHIVAM SHRIVASTAVA
 Senior Software Engineer | Application Development Senior Analyst
 
-📧 shivam.s0116@gmail.com | 📱 +91 7047280653 | 🔗 linkedin.com/in/shivam1939 | 💻 github.com/shivams0116 | 📍 Satna, Madhya Pradesh, India
+📧 shivam.s0116@gmail.com | 📱 +91 7047280653 | 🔗 linkedin.com/in/shivam1939
 
 ---
 
@@ -14,7 +14,7 @@ Software Engineer with 6+ years of experience specializing in Java, Spring Boot,
 ## WORK EXPERIENCE
 
 ### Senior Software Engineer / Application Development Senior Analyst
-**Accenture (Marriott Account)** | India | Jun 2023 – Present
+**Accenture (Marriott Account)** | India | Dec 2023 – Present
 
 Working on Marriott enterprise hospitality systems focused on offer management and rate plan engines. Backend developer for microservices in Java 21; high throughput, low-latency REST APIs deployed to Kubernetes.
 
